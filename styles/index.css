@@ -1,4 +1,4 @@
-body{
+body{              /* dengerous!!!! */
     padding: 0;
     margin: 0;
 }
@@ -7,4 +7,52 @@ body{
     width: 100%;
     height: 100px;
     background: orange;
+    display: flex;
+}
+
+.logo{
+    position: relative;
+    width: 25%;
+}
+
+.logo >img{
+    position: absolute;
+    left: 83px;
+    width: 152px;
+    top: 9px;
+}
+
+.navigation{
+    width: 50%;
+    display: flex;
+}
+
+.navigation > ul{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: space-around;
+    padding: 0;
+}
+
+.navigation > ul > li{
+    list-style: none;
+}
+
+.navigation > ul > li > a{
+    text-decoration: none;
+    color: aquamarine;
+    font-family: sans-serif;
+    font-weight: bolder;
+}
+
+.search{
+    width: 25%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.search > img{
+    width: 20px;
 }
