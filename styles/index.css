@@ -1,11 +1,104 @@
-body{
-    padding: 0;
+*{
+    box-sizing: border-box;
     margin: 0;
+    padding: 0;
+    font-family: sans-serif;
 }
 
+.wrapper{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+
 .header{
+    position: fixed;
     width: 100%;
     height: 100px;
     background: orange;
+<<<<<<< HEAD
 }
 
+=======
+    display: flex;
+    box-shadow: 0 0 10px -5px yellow; 
+}
+
+.fict_header{
+    height: 100px;
+}
+
+.logo{
+    position: relative;
+    width: 25%;
+}
+
+.logo >img{
+    position: absolute;
+    left: 83px;
+    width: 152px;
+    top: 9px;
+    border-radius: 5px;
+}
+
+.navigation{
+    width: 50%;
+    display: flex;
+}
+
+.navigation > ul{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: space-around;
+    padding: 0;
+}
+
+.navigation > ul > li{
+    list-style: none;
+}
+
+.navigation > ul > li.active{
+    border-bottom: 2px solid #0089ff;
+}
+
+.navigation > ul > li > a{
+    text-decoration: none;
+    color: aquamarine;
+    font-family: sans-serif;
+    font-weight: bolder;
+}
+
+.search{
+    width: 25%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.search > input{
+    border-bottom: 2px solid #009ff;
+}
+
+.search > img{
+    width: 20px;
+}
+
+.main{
+    flex: 1;
+    padding: 100px;
+}
+
+.footer{
+    height: 50px;
+    width: 100%;
+    background-color: red;
+}
+
+.test-shadow{
+    margin: 50px;
+    width: 200px;
+    height: 200px;
+}
+>>>>>>> mainPage
