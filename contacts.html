@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Main Page</title>
     <link rel="stylesheet" href="./styles/index.css">
+    <link rel="stylesheet" href="./styles/contacts.css">
 </head>
 <body>
     <div class="wrapper">
@@ -36,27 +37,37 @@
             <form class="form" action="/" name="contacts">
                 <p class="form_field">
                     <label for="name">Name</label>
-                    <input type="text" name="name" id="name">
+                    <input placeholder="Maks Cheredov" type="text" name="name" id="name">
+                </p>
+
+                <p class="form_field">
+                    <label for="lastname">Last Name</label>
+                    <input placeholder="lastname" type="text" name="lastname" id="lastname">
+                </p>
+
+                <p class="form_field">
+                    <label for="email">Email</label>
+                    <input placeholder="example@office.com" type="text" name="email" id="email">
                 </p>
 
                 <p class="form_field">
                         <label for="agree">I agree</label>
                         <input type="checkbox" name="agree" id="agree">
-                    </p>
+                </p>
 
-                    <p class="form_field">
-                            <label for="select">Select</label>
-                            <select name="" id="">
+                <p class="form_field">
+                        <label for="select">Select</label>
+                        <select name="" id="">
                                 <option value="1">one</option>
                                 <option value="2">two</option>
-                                <option value="3" selected="true">three</option>
-                            </select>
-                        </p>
+                                <option value="3" selected>three</option>
+                        </select>
+                </p>
 
-                        <p class="form_field">
-                                <label for="agree">I agree</label>
-                            <textarea name="textarea"></textarea>
-                            </p>
+                <p class="form_field">
+                        <label for="select">Text area</label>
+                        <textarea name="textarea"></textarea>
+                </p>
 
             </form>
 
