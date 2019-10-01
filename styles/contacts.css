@@ -1,0 +1,49 @@
+.form {
+    width: 500px;
+    margin: auto;
+    box-shadow: 1px 1px 8px -2px grey;
+    border-radius: 5px;
+    padding: 20px 40px;
+}
+
+.form_field {
+    width: 100%;
+    padding: 10px 0;
+}
+
+.form_field > label {
+    font-style: italic;
+    color: #386060;
+    font-size: 20px;
+}
+
+.form_field > input {
+    width: 100%;
+}
+
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: rgb(224, 205, 205);
+    opacity: 1; /* Firefox */
+}
+
+
+
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1;
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #888;
+    border-radius: 5px;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555;

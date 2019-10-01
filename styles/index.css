@@ -5,6 +5,10 @@
     font-family: sans-serif;
 }
 
+h1{
+    margin-bottom: 50px;
+}
+
 .wrapper{
     display: flex;
     flex-direction: column;
@@ -55,9 +59,24 @@
     list-style: none;
 }
 
-.navigation > ul > li.active{
-    border-bottom: 2px solid #0089ff;
+.navigation > ul > li::after{
+    content: '';
+    width: 0%;
+    display: block;
+    height: 3px;
+    margin: 0px auto;
+    background: #0089ff;
+    transition: all ease .5s;
 }
+.navigation > ul > li:hover::after{
+   width: 100%;
+}
+
+.navigation > ul > li:hover > a{
+    width: 100%;
+    color: #0089ff
+ }
+ 
 
 .navigation > ul > li > a{
     text-decoration: none;
